@@ -1,196 +1,195 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  .container
-  {
-    width: 100%;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+header {
+  width: 100%;
+  background: linear-gradient(#53532199, rgba(255, 255, 255, 0.7));
+  justify-content: space-between;
+  display: flex;
+  padding: 2em;
+}
+
+.links {
+  width: 100%;
+}
+.links ul {
+  display: flex;
+  margin-left: 60px;
+}
+.logo {
+  height: 50%;
+  width: 100%;
+  font-size: 2rem;
+  font-family: "Ephesis", cursive;
+  font-weight: 700;
+}
+
+.links ul li {
+  padding: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+.links ul li a {
+  border-bottom: 2px solid rgb(7, 83, 7);
+  font-family: "Ubuntu", sans-serif;
+  padding: 0.25rem 0;
+  text-decoration: none;
+  color: black;
+  font-size: 0.75rem;
+  position: relative;
+  transition: 0.5s;
+}
+.hove {
+  font-weight: 100;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  /* width: 100%; */
+  text-decoration: none;
+}
+
+.links ul li a:hover,
+.links ul li a:focus {
+  content: "";
+  font-size: larger;
+  color: white;
+  cursor: pointer;
+}
+.btn {
+  padding: 10px;
+  text-align: center;
+  width: 30%;
+  height: 40px;
+  border-radius: 999px;
+  background: transparent;
+
+  transition: 0.5s;
+}
+.btn1 {
+  padding: 10px;
+  text-align: center;
+  width: 90px;
+  height: 40px;
+  border-radius: 999px;
+  background: transparent;
+
+  transition: 0.5s;
+}
+
+.btn1:hover {
+  background: grey;
+  transform: translate(10px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 5px 0px 5px 0px;
+
+  background: white;
+}
+.btn a {
+  font-family: "Ubuntu", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.one {
+  position: relative;
+  height: 80vh;
+  display: flex;
+}
+.one .flower {
+  display: flex;
+  height: 50%;
+  margin-left: 40px;
+}
+.flower .set1 {
+  height: auto;
+  width: 50%;
+}
+
+.flower .set2 {
+  margin-bottom: 20px;
+  margin-right: 90px;
+  width: 50%;
+}
+.section-one-texts {
+  margin: 40px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.section-one-texts .Healthy {
+  color: rgba(37, 70, 34, 0.6);
+  font-size: 50px;
+}
+.section-one-texts .feel {
+  padding-top: 5px;
+  color: black;
+  font-size: larger;
+}
+.section-two-button {
+  background: #53532199;
+  width: 90px;
+  height: 40px;
+  border-radius: 999px;
+  margin-top: 2em;
+  transition: 0.3s ease-in-out;
+}
+.section-two-button:hover {
+  background: grey;
+  transform: translate(10px, 5px);
+  -webkit-transform: translate(10px, 5px);
+  box-shadow: 0px 5px 5px 0px;
+}
+.section-two-button a {
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.section-two-button a:hover {
+  color: green;
+}
+
+@media only screen and (max-width: 900px) {
   header {
-    width: 100%;
-    background: linear-gradient(
-      #53532199,
-      rgba(255, 255, 255, 0.7)
-    );
-    justify-content: space-between;
-    display: flex;
-    padding: 2em;
-  }
-  
-  .links
-  {width: 100%;}
-  .links ul {
-    display: flex;
-    margin-left: 60px;
+    flex-direction: column;
   }
   .logo {
-    height: 50%;
-    width: 100%;
-      font-size: 2rem;
-      font-family: 'Ephesis', cursive;
-    font-weight: 700;
-  }
-  
-  .links ul li {
-    
-    padding: 20px;
-    text-decoration: none;
-    list-style: none;
-  
-  }
-  .links ul li a {
-    border-bottom: 2px solid rgb(7, 83, 7);
-    font-family: "Ubuntu", sans-serif;
-    padding: .25rem 0;
-    text-decoration: none;
-    color: black;
     font-size: 0.75rem;
-    position: relative;
-    transition: 0.5s;
-  }
-  .hove 
-  {
-      font-weight: 100;
-      position: relative;
-      display: flex;
-      -webkit-box-align: center;
-      align-items: center;
-      /* width: 100%; */
-      text-decoration: none;
-    
   }
 
-  
-  .links ul li a:hover
-  ,.links ul li a:focus{
-    content: "";
-    font-size: larger;
-    color: white;
-    cursor: pointer;
+  .section-two-button {
+    margin-top: 90px;
   }
-  .btn {
-  
-    padding: 10px;
-    text-align: center;
-    width:30%;
-    height:40px;
-    border-radius: 999px;
-    background: transparent;
-    
-    transition: 0.5s;
-  }
-  .btn1
-  {
-  
-          padding: 10px;
-          text-align: center;
-          width:90px;
-          height:40px;
-          border-radius: 999px;
-          background: transparent;
-          
-          transition: 0.5s;
-  
-  }
-  
-  .btn1:hover
-  {
-      background: grey;
-      transform: translate(10px, 5px);
-      -webkit-transform: translate(0px, 5px);
-      box-shadow: 5px 0px 5px 0px;
-  
-  background: white;
-  }
-  .btn a {
-      font-family: "Ubuntu", sans-serif;
-    color: black;
-    text-decoration: none;
-  }
-  .one {
-    position: relative;
-    height: 80vh;
+  .flower {
     display: flex;
+    flex-direction: column;
   }
-  .one .flower {
-   
-    display: flex;
-    height: 50%;
-    margin-left: 40px;
+  .flower {
+    margin-left: 30px;
+  }
+  .section-one-texts .Healthy {
+    font-size: 30px;
   }
   .flower .set1 {
-    height: auto;
-    width: 50%;
+    max-width: 100%;
+    margin-top: 20px;
   }
-    
+  .links {
+    display: none;
+  }
   .flower .set2 {
-    
-   margin-bottom: 20px;
-   margin-right: 90px;
-    width:50%;
+    max-width: 100%;
   }
-  .section-one-texts {
-    margin: 40px;
-    font-family: "Ubuntu", sans-serif;
+  .links ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
   }
-  
-  .section-one-texts .Healthy
-  {
-      color: rgba(37, 70, 34, 0.6);
-      font-size: 50px;
+  .links ul li a {
+    max-width: 60%;
   }
-  .section-one-texts .feel
-  {
-      padding-top: 5px;
-      color: black;
-      font-size: larger;
-  }
-  .section-two-button
-  {
-      background: #53532199;
-     width: 90px;
-    height:40px;
-    border-radius: 999px;
-      margin-top: 2em;
-      transition: 0.3s ease-in-out;
-  
-  }
-  .section-two-button:hover
-  {
-      
-      background: grey;
-      transform: translate(10px, 5px);
-      -webkit-transform: translate(10px, 5px);
-      box-shadow: 0px 5px 5px 0px;
-  }
-  .section-two-button a
-  {
-      color: black;
-      text-decoration: none;
-      transition:0.3s
-  }
-  .section-two-button a:hover
-  {
-      color: green;
-  }
-
- @media only screen and (max-width: 900px)
-
-{
-  header{flex-direction: column;}
-  .logo{font-size: .75rem;}
-  .section-two-button{margin-top: 90px;}
-  .flower{ display: flex; flex-direction: column;}
-  .flower{ margin-left: 30px;}
-  .section-one-texts .Healthy{ font-size: 30px;}
-    .flower .set1{max-width: 100%;
-      margin-top: 20px;}
-      .flower .set2{max-width: 100%;}
-      .links ul {
-        display: flex;
-        flex-direction: column;
-        margin-left: 0px;
 }
-.links ul li a{max-width: 60%;}
-}
+https://prod.liveshare.vsengsaas.visualstudio.com/join?25E31E212326A98CB18C4D57545958B7F91B
