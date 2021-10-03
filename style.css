@@ -104,7 +104,8 @@ border: none;
 
 .one .flower {
   display: flex;
-  height: 50%;
+  width: 100%;
+  border: .1rem solid rgb(0, 92, 0);
   
 }
 .flower .set1 {
@@ -124,7 +125,7 @@ border: none;
 
 .section-one-texts .Healthy {
   color: rgba(37, 70, 34, 0.6);
-  font-size: 50px;
+  font-size: 2rem;
 }
 .section-one-texts .feel {
   margin-top: 0.75rem;
@@ -256,7 +257,7 @@ color: black;
     
   }
   .flower {
-    margin-left: 30px;
+    margin-left: 0px;
   }
   .section-one-texts .Healthy {
     font-size: 30px;
